@@ -3,22 +3,20 @@
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
 Version: 0.9.0
-Release: %mkrel 4
+Release: %mkrel 5
 License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
-URL: http://www.gnome.org/~uraeus/
+URL: http://librsvg.sourceforge.net/theme.php
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires:  libgtk+2.0-devel
 BuildRequires: gtk-engines2
 BuildRequires:  perl-XML-Parser
-BuildRequires: automake1.7
 BuildArch: noarch
 # for the svg theme engine
 Requires: librsvg
 # for the industrial theme engine
 Requires: gtk-engines2 >= 2.6
-
 
 %description
 Additional themes collection for GNOME: this package contains the
