@@ -2,7 +2,7 @@
 
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
-Version: 2.19.6
+Version: 2.20
 Release: %mkrel 1
 License: GPL
 Group: Graphical desktop/GNOME
