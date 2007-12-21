@@ -8,6 +8,7 @@ License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
 URL: http://librsvg.sourceforge.net/theme.php
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires:  libgtk+2.0-devel
 BuildRequires:  gtk-engines2
 BuildRequires:  perl-XML-Parser
