@@ -3,7 +3,7 @@
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
 Version: 2.20
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
