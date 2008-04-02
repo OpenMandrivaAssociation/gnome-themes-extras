@@ -2,8 +2,8 @@
 
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
-Version: 2.20
-Release: %mkrel 2
+Version: 2.22.0
+Release: %mkrel 1
 License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
@@ -53,10 +53,12 @@ rm -rf ${RPM_BUILD_ROOT}
 %update_icon_cache Foxtrot
 %update_icon_cache Gion
 %update_icon_cache Neu
+%update_icon_cache gnome-alternative
 %postun
 %clean_icon_cache Foxtrot
 %clean_icon_cache Gion
 %clean_icon_cache Neu
+%clean_icon_cache gnome-alternative
 
 
 %files -f gnome-themes-extras.lang
@@ -68,6 +70,7 @@ rm -rf ${RPM_BUILD_ROOT}
 %_datadir/icons/Foxtrot/index.theme
 %_datadir/icons/Gion/index.theme
 %_datadir/icons/Neu/index.theme
+%_datadir/icons/gnome-alternative/index.theme
 %{_datadir}/themes/*
 %doc AUTHORS MAINTAINERS ChangeLog COPYING README TODO
 %ghost %{_datadir}/icons/*/icon-theme.cache
