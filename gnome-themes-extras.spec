@@ -3,10 +3,11 @@
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
 Version: 2.22.0
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
+Patch: gnome-themes-extras-2.22.0-darklooks.patch
 URL: http://librsvg.sourceforge.net/theme.php
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires:  libgtk+2.0-devel
@@ -25,6 +26,7 @@ Darklooks metatheme and the Foxtrot, Gion and Neu icon themes for GNOME2.
 
 %prep
 %setup -q
+%patch -p1
 %build
 
 #don't use configure macro, it doesn't work
