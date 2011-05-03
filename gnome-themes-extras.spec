@@ -3,7 +3,7 @@
 Summary: Additional themes collection for GNOME
 Name: gnome-themes-extras
 Version: 2.22.0
-Release: %mkrel 6
+Release: %mkrel 7
 License: GPL
 Group: Graphical desktop/GNOME
 Source0: http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{name}-%{version}.tar.bz2
