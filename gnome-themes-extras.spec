@@ -34,14 +34,14 @@ Darklooks metatheme and the Foxtrot, Gion and Neu icon themes for GNOME2.
 %make
 
 %install
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf %{buildroot}
 %makeinstall
 
 %find_lang gnome-themes-extras
 
 ### Remove files not to be installed
-rm -rf $RPM_BUILD_ROOT%{_libdir}/gtk-2.0/%{gtkbinaryver}/engines/{*.{a,la},libindustrial.so,libsmooth.so}
-rm -rf $RPM_BUILD_ROOT%_datadir/themes/Industrial
+rm -rf %{buildroot}%{_libdir}/gtk-2.0/%{gtkbinaryver}/engines/{*.{a,la},libindustrial.so,libsmooth.so}
+rm -rf %{buildroot}%_datadir/themes/Industrial
 
 
 for dir in %buildroot%{_datadir}/icons/*; do
@@ -49,7 +49,7 @@ for dir in %buildroot%{_datadir}/icons/*; do
 done
 
 %clean
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf %{buildroot}
 
 %post
 %update_icon_cache Foxtrot
