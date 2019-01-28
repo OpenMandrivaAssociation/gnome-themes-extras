@@ -26,7 +26,7 @@ Additional themes collection for GNOME: this package contains the
 Darklooks metatheme and the Foxtrot, Gion and Neu icon themes for GNOME2.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}
 %apply_patches
 %build
 
