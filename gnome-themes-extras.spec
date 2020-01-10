@@ -27,7 +27,7 @@ Darklooks metatheme and the Foxtrot, Gion and Neu icon themes for GNOME2.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 %build
 
 #don't use configure macro, it doesn't work
