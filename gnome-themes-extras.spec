@@ -7,7 +7,7 @@ Version:	2.22.0
 Release:	19
 License:	GPLv2
 Group:		Graphical desktop/GNOME
-Url:		http://librsvg.sourceforge.net/theme.php
+Url:		https://librsvg.sourceforge.net/theme.php
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{url_ver}/%{name}-%{version}.tar.bz2
 Patch0:		gnome-themes-extras-2.22.0-darklooks.patch
 BuildArch:	noarch
