@@ -12,6 +12,11 @@ Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extras/%{url_ver}/%
 Patch0:		gnome-themes-extras-2.22.0-darklooks.patch
 BuildArch:	noarch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl-XML-Parser
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gtk-engines-2)
