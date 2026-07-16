@@ -4,7 +4,7 @@
 Summary:	Additional themes collection for GNOME
 Name:		gnome-themes-extras
 Version:	2.22.0
-Release:	20
+Release:	21
 License:	GPLv2
 Group:		Graphical desktop/GNOME
 Url:		https://librsvg.sourceforge.net/theme.php
